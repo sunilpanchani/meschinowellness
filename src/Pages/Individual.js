@@ -3,6 +3,7 @@ import Breadcrumb from '../Common/Breadcrumb';
 import TabOptions from '../Common/TabOptions';
 import TextVideoContainer from '../Common/TextVideoContainer';
 import ContentDisplay from '../Common/ContentDisplay';
+import Title from '../Common/Title';
 import About2 from '../assets/img/about2.png';
 import About3 from '../assets/img/about3.png';
 
@@ -111,6 +112,7 @@ const Individual = () => {
 
     return (
         <>
+            <Title title="How It Works - Meschino Health and Wellness" />
             <Breadcrumb title="How It Works" item="Individual" />
             <TabOptions handleImageClick={handleImageClick} />
             <div ref={healthRiskRef}>

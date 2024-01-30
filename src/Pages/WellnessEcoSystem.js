@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Breadcrumb from '../Common/Breadcrumb';
 import TextVideoContainer from '../Common/TextVideoContainer';
+import Title from '../Common/Title';
 import About2 from '../assets/img/about2.png';
 
 const WellnessEcoSystem = () => {
@@ -35,6 +36,7 @@ const WellnessEcoSystem = () => {
 
     return (
         <>
+            <Title title="Wellness Eco-System - Meschino Health and Wellness" />
             <Breadcrumb title="Wellness Program" item="Wellness Eco-System" />
             {[TextVideoContainerData].map((id, index) => (
                 <TextVideoContainer key={index} {...id} />

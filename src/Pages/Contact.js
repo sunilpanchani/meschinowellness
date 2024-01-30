@@ -1,10 +1,12 @@
 import React from 'react';
 import Breadcrumb from '../Common/Breadcrumb';
+import Title from '../Common/Title';
 
 const Contact = () => {
 
     return (
         <>
+            <Title title="Contact us - Meschino Health and Wellness" />
             <Breadcrumb title="Contact Us" item="Contact Us" />
             <div className="v5_about_area mt-5">
                 <div className="container">

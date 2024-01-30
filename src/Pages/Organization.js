@@ -1,10 +1,11 @@
 import React, { useRef, useState } from 'react';
 import Breadcrumb from '../Common/Breadcrumb';
 import TabOptions from '../Common/TabOptions';
-import About2 from '../assets/img/about2.png';
-import About3 from '../assets/img/about3.png';
 import TextVideoContainer from '../Common/TextVideoContainer';
 import ContentDisplay from '../Common/ContentDisplay';
+import Title from '../Common/Title';
+import About2 from '../assets/img/about2.png';
+import About3 from '../assets/img/about3.png';
 
 const Organization = () => {
 
@@ -104,6 +105,7 @@ const Organization = () => {
 
     return (
         <>
+            <Title title="How It Works - Meschino Health and Wellness" />
             <Breadcrumb title="How It Works" item="Organization" />
             <TabOptions handleImageClick={handleImageClick} />
             <div ref={healthRiskRef}>

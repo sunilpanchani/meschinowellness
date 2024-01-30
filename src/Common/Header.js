@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import MenuItem from "./MenuItem";
+import Logo from '../assets/img/logo.png';
 
 const Header = () => {
 
@@ -144,8 +145,8 @@ const Header = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-2 col-6">
-              <Link to="index.html" className="site_logo">
-                <img src="assets/img/logo.png" alt="" />
+              <Link to="/" className="site_logo">
+                <img src={Logo} alt="" />
               </Link>
             </div>
             <div className="col-lg-10 text-center col-6">
