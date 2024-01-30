@@ -2,6 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
+
+  const currentYear = new Date().getFullYear();
+
   return (
     <>
       <footer>
@@ -13,10 +16,6 @@ const Footer = () => {
                   <div className="footer_logo">
                     <img src="assets/img/logo2.png" alt="" />
                   </div>
-                  <p>
-                    Mauna Loa the biggest volcano on Earth and one of the most
-                    active covers half the Island of Hawaii.
-                  </p>
                   <ul className="footer_contact_inf">
                     <li>
                       <a href="tel:0621099222">
@@ -149,10 +148,7 @@ const Footer = () => {
             <div className="row">
               <div className="col">
                 <p>
-                  ©2018 Crazycafe.All Rights Reserved. Designed by{" "}
-                  <a href="#">
-                    <i className="zmdi zmdi-favorite-outline"></i> Crazycafe.net
-                  </a>
+                  ©{currentYear}. All Rights Reserved.
                 </p>
               </div>
             </div>

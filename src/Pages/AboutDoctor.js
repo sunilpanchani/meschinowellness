@@ -1,11 +1,13 @@
 import React from 'react';
-import DoctorDetails from '../assets/img/doctor_details1.jpg';
 import Breadcrumb from '../Common/Breadcrumb';
+import Title from '../Common/Title';
+import DoctorDetails from '../assets/img/doctor_details1.jpg';
 
 const AboutDoctor = () => {
 
     return (
         <>
+            <Title title="About Dr. Meschino - Meschino Health and Wellness" />
             <Breadcrumb title="About" item="About Dr. Meschino" />
             <div className="doctor_details_area">
                 <div className="container">
