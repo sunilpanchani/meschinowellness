@@ -4,8 +4,10 @@ import TabOptions from '../Common/TabOptions';
 import TextVideoContainer from '../Common/TextVideoContainer';
 import ContentDisplay from '../Common/ContentDisplay';
 import Title from '../Common/Title';
-import About2 from '../assets/img/about2.png';
-import About3 from '../assets/img/about3.png';
+import Info5 from '../assets/img/info5.png';
+import Info6 from '../assets/img/info6.png';
+import Info7 from '../assets/img/info7.png';
+import Info8 from '../assets/img/info8.png';
 
 const Organization = () => {
 
@@ -53,7 +55,7 @@ const Organization = () => {
     };
 
     const HowItWorksData1 = {
-        imageSrc: About2,
+        imageSrc: Info5,
         title: "Health Risk Assessment",
         description1: `The Health Risk Assessment (HRA) is an online tool initially created by Dr. James Meschino and his team in late 2005.
         With over 25 years of clinical experience, the HRA underwent significant updates, culminating in a complete transformation in 2014 to become the engine for the Meschino Wellness Platform.
@@ -70,8 +72,8 @@ const Organization = () => {
     };
 
     const HowItWorksData2 = {
-        imageSrc: About3,
-        title: "MY WELLNESS PLAN",
+        imageSrc: Info7,
+        title: "My Wellness Plan",
         description1: `My Wellness Plan streamlines goal-setting based on your My Wellness Report. Tailor goals to your abilities and preferences, selecting foods, activities, and strategies for health. Choose a moderate or aggressive approach. It's your opportunity to define precise goals and strategies. The plan includes prompts for easy planning and a color-coded system (red, blue, or green) for assessing health risks.`,
         description2: `If your risk status is red or blue, one or more recommended goals will appear and a number of prompts will guide you through the process leading to a plan to reduce or eliminate the specified health risk. It’s an easy and inspiring process that enables you to create your own, practical plan for wellness success, based on your personal taste preferences, time table, level of motivation, and other factors.`,
         listItems: [],
@@ -81,8 +83,8 @@ const Organization = () => {
 
     const ContentDisplayData1 = {
         view: '1',
-        imageUrl: About2,
-        title: "MY WELLNESS REPORT",
+        imageUrl: Info6,
+        title: "My Wellness Report",
         description1: `The Wellness Report is a personalized feedback summary from the Meschino Health Risk Assessment questionnaire.
         It offers tailored advice on diet, exercise, supplementation, and proactive strategies based on your health profile.
         The report pinpoints health risks, gives nutrition and lifestyle recommendations for existing issues, guides resistance against family-related conditions, addresses nutrient deficiencies, and more.`,
@@ -94,8 +96,8 @@ const Organization = () => {
 
     const ContentDisplayData2 = {
         view: '1',
-        imageUrl: About3,
-        title: "GET REWARDED",
+        imageUrl: Info8,
+        title: "Get Rewarded",
         description1: `As a user, earn reward points* by achieving goals, using tracking tools, completing learn & earn modules, and engaging with the Meschino Wellness Platform. Earn an Achievement Status (AS) Badge as recognition. There are 6 badges, each with 5 stars, representing increasing accomplishment levels. Progress through badge levels to join exclusive user groups within your organization. The ultimate achievement is the 'Health & Wellness Superstar' award for receiving all 6 AS Badges.`,
         description2: ` Meschino Health & Wellness also has a custom reward program for those organizations that provide a budget that allows its members to cash in points for health-related merchandise.`,
         listItems: [],

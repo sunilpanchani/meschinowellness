@@ -36,8 +36,8 @@ const TextVideoContainer = ({ imageSrc, title, description1, description2, listI
                                     <div className="about_video_content">
                                         <a href="#" className="video_popup">
                                             <img src={imageSrc} alt="" onClick={(e) => handlePlayClick(e, videoSrc)} />
-                                            <span className="video_content">
-                                                <i className="zmdi zmdi-play-circle-outline"></i> {title}
+                                            <span className="icon">
+                                                <i className="zmdi zmdi-play-circle-outline"></i>
                                             </span>
                                         </a>
                                     </div>

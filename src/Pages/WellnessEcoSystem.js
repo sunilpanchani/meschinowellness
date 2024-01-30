@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Breadcrumb from '../Common/Breadcrumb';
 import TextVideoContainer from '../Common/TextVideoContainer';
 import Title from '../Common/Title';
-import About2 from '../assets/img/about2.png';
+import Wp4 from '../assets/img/wp4.png';
 
 const WellnessEcoSystem = () => {
 
@@ -22,7 +22,7 @@ const WellnessEcoSystem = () => {
     };
 
     const TextVideoContainerData = {
-        imageSrc: About2,
+        imageSrc: Wp4,
         title: "WELLNESS ECO-SYSTEM",
         description1: `Meschino Wellness is adopting technology that swiftly updates health status based on blood test results.
         Apple Inc. and other companies are enabling access to personal health data through smart apps.

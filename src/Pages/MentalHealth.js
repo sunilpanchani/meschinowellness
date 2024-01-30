@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import Breadcrumb from '../Common/Breadcrumb';
 import TextVideoContainer from '../Common/TextVideoContainer';
 import Title from '../Common/Title';
-import About2 from '../assets/img/about2.png';
 
 const MentalHealth = () => {
 
@@ -23,7 +22,7 @@ const MentalHealth = () => {
 
     const TextVideoContainerData = {
         view: 'Mental Health',
-        imageSrc: About2,
+        imageSrc: '',
         title: "MENTAL HEALTH",
         description1: `The Mental Health Check-Up on the Meschino Digital Wellness Platform is based on the DSM-5.
         This is the standard assessment used by psychiatrists to identity existing or impending mental health disorders, including various types of depression, anxiety, obsessive compulsive disorder, schizophrenia etc.
