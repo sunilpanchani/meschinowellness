@@ -4,8 +4,10 @@ import TabOptions from '../Common/TabOptions';
 import TextVideoContainer from '../Common/TextVideoContainer';
 import ContentDisplay from '../Common/ContentDisplay';
 import Title from '../Common/Title';
-import About2 from '../assets/img/about2.png';
-import About3 from '../assets/img/about3.png';
+import Info1 from '../assets/img/info1.png';
+import Info2 from '../assets/img/info2.png';
+import Info3 from '../assets/img/info3.png';
+import Info4 from '../assets/img/info4.png';
 
 const Individual = () => {
 
@@ -52,7 +54,7 @@ const Individual = () => {
     };
 
     const HowItWorksData1 = {
-        imageSrc: About2,
+        imageSrc: Info1,
         title: "Health Risk Assessment",
         description1: `The Health Risk Assessment (HRA) is an online tool initially created by Dr. James Meschino and his team in late 2005.
         With over 25 years of clinical experience, the HRA underwent significant updates, culminating in a complete transformation in 2014 to become the engine for the Meschino Wellness Platform.
@@ -69,8 +71,8 @@ const Individual = () => {
     };
 
     const HowItWorksData2 = {
-        imageSrc: About3,
-        title: "MY WELLNESS PLAN",
+        imageSrc: Info3,
+        title: "My Wellness Plan",
         description1: `My Wellness Plan, stemming from your My Wellness Report, offers a personalized approach to goal-setting for your well-being.
         This tool enables you to select foods, activities, supplements, and strategies tailored to your health objectives.
         Whether you opt for a moderate or aggressive approach, the Wellness Plan puts you in control of defining and pursuing your wellness goals.
@@ -84,8 +86,8 @@ const Individual = () => {
 
     const ContentDisplayData1 = {
         view: '1',
-        imageUrl: About2,
-        title: "MY WELLNESS REPORT",
+        imageUrl: Info2,
+        title: "My Wellness Report",
         description1: `The Wellness Report is a personalized feedback summary from the Meschino Health Risk Assessment questionnaire.
         It offers tailored advice on diet, exercise, supplementation, and proactive strategies based on your health profile.
         The report pinpoints health risks, gives nutrition and lifestyle recommendations for existing issues, guides resistance against family-related conditions, addresses nutrient deficiencies, and more.`,
@@ -97,8 +99,8 @@ const Individual = () => {
 
     const ContentDisplayData2 = {
         view: '1',
-        imageUrl: About3,
-        title: "GET REWARDED",
+        imageUrl: Info4,
+        title: "Get Rewarded",
         description1: `As a user, you will earn reward points for achieving goals, using tracking tools, completing learn & earn modules and interacting with the Meschino Wellness Platform in a variety of ways. In recognition of your efforts, you will be rewarded an Achievement Status(AS) Badge.
         These Recognitions Badges recognize the health achievements.`,
         description2: `There are 6 badges and each badge has 5 stars.

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Breadcrumb from '../Common/Breadcrumb';
 import TextVideoContainer from '../Common/TextVideoContainer';
 import Title from '../Common/Title';
-import About2 from '../assets/img/about2.png';
+import Wp3 from '../assets/img/wp3.png';
 
 const CorporateWellness = () => {
 
@@ -22,7 +22,7 @@ const CorporateWellness = () => {
     };
 
     const TextVideoContainerData = {
-        imageSrc: About2,
+        imageSrc: Wp3,
         title: "CORPORATE WELLNESS",
         description1: `The Meschino Health Risk Assessment offers a robust online assessment, providing aggregate data to assess and address health risks impacting your organization and workforce.
         Our Wellness Platform offers personalized programs, tracking tools, coaching support, and resources to improve individual health and quality of life.

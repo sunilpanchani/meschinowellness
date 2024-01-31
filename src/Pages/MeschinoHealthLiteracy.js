@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Breadcrumb from '../Common/Breadcrumb';
 import TextVideoContainer from '../Common/TextVideoContainer';
 import Title from '../Common/Title';
-import About2 from '../assets/img/about2.png';
+import Wp5 from '../assets/img/wp5.png';
 
 const MeschinoHealthLiteracy = () => {
 
@@ -22,7 +22,7 @@ const MeschinoHealthLiteracy = () => {
     };
 
     const TextVideoContainerData = {
-        imageSrc: About2,
+        imageSrc: Wp5,
         title: "MESCHINO HEALTH LITERACY",
         description1: `Health Literacy is a term used to explain the degree of knowledge one has about how specific dietary and lifestyle practices impact disease risk and management. Many adults in our society have been shown to have poor health literacy. People with a higher degree of health literacy tend to exhibit healthier lifestyle practices and have fewer health problems as they age.`,
         description2: `The Meschino Wellness Platform provides a multi-faceted approach to improved health literacy. Users are provided with a steady stream of wellness content that is targeted to their specific health profile; in addition, they will receive Dr. Meschino’s weekly research update blogs and recipes, and will have the ability to access any other learn and earn modules, wellness articles and videos on a multitude of health topics.`,

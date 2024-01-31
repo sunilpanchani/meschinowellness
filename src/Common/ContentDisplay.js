@@ -12,7 +12,7 @@ const ContentDisplay = ({ view, imageUrl, title, description1, description2, lis
                             <div className="col-md-5">
                                 <div className="about_righ_content home_2">
                                     <div className='thumbnail_container'>
-                                        <img src={imageUrl} alt="" className='image' onClick={(e) => handlePlayClick(e, videoSrc)} />
+                                        <img src={imageUrl} alt="" className='image img-fluid rounded' onClick={(e) => handlePlayClick(e, videoSrc)} />
                                         <span className='icon'>
                                             <i className="zmdi zmdi-play-circle-outline"></i>
                                         </span>
@@ -49,7 +49,7 @@ const ContentDisplay = ({ view, imageUrl, title, description1, description2, lis
                             <div className="col-md-6 order-md-6">
                                 <div className="about_righ_content home_2">
                                     <div className='thumbnail_container'>
-                                        <img src={imageUrl} alt="" className='image' onClick={(e) => handlePlayClick(e, videoSrc)} />
+                                        <img src={imageUrl} alt="" className='image img-fluid rounded' onClick={(e) => handlePlayClick(e, videoSrc)} />
                                         <div className='icon'>
                                             <i className="zmdi zmdi-play-circle-outline"></i>
                                         </div>
