@@ -35,7 +35,7 @@ const TextVideoContainer = ({ imageSrc, title, description1, description2, listI
                                 <div className="col-lg-5 order-lg-7">
                                     <div className="about_video_content">
                                         <a href="#" className="video_popup">
-                                            <img src={imageSrc} alt="" onClick={(e) => handlePlayClick(e, videoSrc)} />
+                                            <img src={imageSrc} alt="" className="img-fluid rounded" onClick={(e) => handlePlayClick(e, videoSrc)} />
                                             <span className="icon">
                                                 <i className="zmdi zmdi-play-circle-outline"></i>
                                             </span>
