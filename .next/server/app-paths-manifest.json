@@ -1,6 +1,6 @@
 {
-  "/page": "app/page.js",
-  "/how-it-works/individuals/page": "app/how-it-works/individuals/page.js",
+  "/wellness-program/meschino-health-literacy/page": "app/wellness-program/meschino-health-literacy/page.js",
+  "/wellness-program/corporate-wellness/page": "app/wellness-program/corporate-wellness/page.js",
   "/how-it-works/organizations/page": "app/how-it-works/organizations/page.js",
-  "/wellness-program/mental-wellness/page": "app/wellness-program/mental-wellness/page.js"
+  "/contact-us/page": "app/contact-us/page.js"
 }

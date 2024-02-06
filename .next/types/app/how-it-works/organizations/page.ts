@@ -1,4 +1,4 @@
-// File: F:\meschinowellness\src\app\how-it-works\organizations\page.js
+// File: G:\meschinowellness\src\app\how-it-works\organizations\page.js
 import * as entry from '../../../../../src/app/how-it-works/organizations/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
