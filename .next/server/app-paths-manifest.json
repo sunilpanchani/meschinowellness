@@ -1,0 +1,6 @@
+{
+  "/page": "app/page.js",
+  "/how-it-works/individuals/page": "app/how-it-works/individuals/page.js",
+  "/how-it-works/organizations/page": "app/how-it-works/organizations/page.js",
+  "/wellness-program/mental-wellness/page": "app/wellness-program/mental-wellness/page.js"
+}
