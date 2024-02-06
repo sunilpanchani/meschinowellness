@@ -1,7 +1,7 @@
+"use client";
 import React, { useState } from "react";
-import ContentDisplay from "../Common/ContentDisplay";
-import About2 from "../assets/img/about2.png";
-import About3 from "../assets/img/about3.png";
+import ContentDisplay from './ContentDisplay';
+import VideoModal from "./VideoModal";
 
 const HRA = () => {
 
@@ -23,7 +23,7 @@ const HRA = () => {
   const ContentDisplayData = [
     {
       view: '1',
-      imageUrl: About2,
+      imageUrl: '/img/about2.png',
       title: "What is Health Risk Assessment (HRA) ?",
       description1: `Health Risk Assessment (HRA) is the primary method for
       identifying and classifying the occupational health risk and
@@ -39,7 +39,7 @@ const HRA = () => {
     },
     {
       view: '2',
-      imageUrl: About3,
+      imageUrl: '/img/about3.png',
       title: "How It Works ?",
       description1: `The Meschino Health Risk Assessment, developed in 2005 and
       updated in 2014, stems from over 25 years of clinical
@@ -61,42 +61,11 @@ const HRA = () => {
         <ContentDisplay key={index}  {...item} />
       ))}
 
-      {showModal && (
-        <div className="modal fade show d-flex align-items-center" tabIndex="-1"
-          onClick={handleOverlayClick}
-          style={{
-            display: "block",
-            backgroundColor: "rgba(0, 0, 0, 0.5)",
-          }}>
-
-          <div className="modal-dialog modal-dialog-centered"
-            onClick={(e) => e.stopPropagation()}
-            style={{
-              margin: "auto",
-              minWidth: window.innerWidth > 800 ? "60%" : "100%",
-            }}>
-
-            <div className="modal-content"
-              style={{
-                border: "none",
-                background: "transparent",
-                minHeight: "50vh",
-              }}>
-
-              <div className="modal-body">
-                <div className="embed-responsive embed-responsive-16by9">
-                  <iframe
-                    className="embed-responsive-item"
-                    src={currentVideoSrc}
-                    allowFullScreen
-                    title="YouTube Video"
-                  ></iframe>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      )}
+      <VideoModal
+        showModal={showModal}
+        currentVideoSrc={currentVideoSrc}
+        handleOverlayClick={handleOverlayClick}
+      />
     </>
   );
 };
