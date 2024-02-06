@@ -1,6 +1,6 @@
 import React from 'react';
-import Breadcrumb from '@/components/Breadcrumb';
-import WellnessEcoSystem from '@/components/WellnessEcoSystem';
+import Breadcrumb from '@/Components/Breadcrumb';
+import WellnessEcoSystem from '@/Components/WellnessEcoSystem';
 
 export const metadata = {
     title: "Wellness Eco-System - Meschino Health and Wellness",

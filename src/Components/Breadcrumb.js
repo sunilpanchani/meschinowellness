@@ -2,6 +2,7 @@ import React from "react";
 import Link from "next/link";
 
 const Breadcrumb = ({ title, item }) => {
+
     return (
         <>
             <div className="breadvroumb_area">

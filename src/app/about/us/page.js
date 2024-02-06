@@ -1,5 +1,5 @@
 import React from 'react';
-import Breadcrumb from '../../../components/Breadcrumb';
+import Breadcrumb from '@/Components/Breadcrumb';
 
 export const metadata = {
     title: "About us - Meschino Health and Wellness",

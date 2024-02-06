@@ -1,8 +1,8 @@
 import React from "react";
-import Welcome from '../components/Welcome';
-import Service from '../components/Service';
-import Info from "@/components/Info";
-import HRA from "@/components/HRA";
+import HRA from "@/Components/HRA";
+import Info from "@/Components/Info";
+import Service from "@/Components/Service";
+import Welcome from "@/Components/Welcome";
 
 export const metadata = {
   title: "Meschino Health and Wellness",

@@ -1,6 +1,7 @@
 import React from 'react';
-import Breadcrumb from '../../../components/Breadcrumb';
-import Organization from '@/components/Organization';
+import Breadcrumb from '@/Components/Breadcrumb';
+import Organization from '@/Components/Organization';
+
 
 export const metadata = {
     title: "How It Works For Organization - Meschino Health and Wellness",

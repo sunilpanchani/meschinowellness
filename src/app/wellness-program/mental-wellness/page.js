@@ -1,6 +1,6 @@
 import React from 'react';
-import Breadcrumb from '@/components/Breadcrumb';
-import MentalHealth from '@/components/MentalHealth';
+import Breadcrumb from '@/Components/Breadcrumb';
+import MentalHealth from '@/Components/MentalHealth';
 
 export const metadata = {
     title: "Mental Health - Meschino Health and Wellness",

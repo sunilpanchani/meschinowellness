@@ -1,6 +1,6 @@
 import React from 'react';
-import Breadcrumb from '@/components/Breadcrumb';
-import MeschinoHealthLiteracy from '@/components/MeschinoHealthLiteracy';
+import Breadcrumb from '@/Components/Breadcrumb';
+import MeschinoHealthLiteracy from '@/Components/MeschinoHealthLiteracy';
 
 export const metadata = {
     title: "Meschino Health Literacy - Meschino Health and Wellness",

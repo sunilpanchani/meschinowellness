@@ -1,6 +1,7 @@
 import React from 'react';
-import Breadcrumb from '../../../components/Breadcrumb';
-import Individual from '@/components/Individual';
+import Breadcrumb from '@/Components/Breadcrumb';
+import Individual from '@/Components/Individual';
+
 
 export const metadata = {
     title: "How It Works For Individual - Meschino Health and Wellness",
