@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 
 const Service = () => {
 
@@ -15,13 +15,13 @@ const Service = () => {
           <div className="row justify-content-center">
             <div className="col-lg-6 col-md-8 text-center">
               <div className="section_title">
-                <h1>Meschino Wellness Program</h1>
+                <h2>Meschino Wellness Program</h2>
               </div>
             </div>
           </div>
           <div className="row">
             <div className="col-md-4 mb-3">
-              <Link to='/wellness-program-individual-wellness' style={linkStyles}>
+              <Link href='/wellness-program/individual-wellness' style={linkStyles}>
                 <div className="single_cbox">
                   <div className="cbox_title">
                     <div className="cbox_icon">
@@ -37,15 +37,14 @@ const Service = () => {
                     person, encompassing physical, mental, and social aspects of
                     their health.
                   </p>
-                  <div className="call_btn">
-                    <span>Call us:</span>
-                    <a href="tel:062109-9222">1-888-770-1075</a>
-                  </div>
+                  <Link href="/wellness-program/individual-wellness">
+                    Know more <i className="zmdi zmdi-plus"></i>
+                  </Link>
                 </div>
               </Link>
             </div>
             <div className="col-md-4 mb-3">
-              <Link to='/wellness-program-mental-wellness' style={linkStyles}>
+              <Link href='/wellness-program/mental-wellness' style={linkStyles}>
                 <div className="single_cbox">
                   <div className="cbox_title">
                     <div className="cbox_icon">
@@ -61,14 +60,14 @@ const Service = () => {
                     encompassing emotional resilience, cognitive function, and
                     social interactions.
                   </p>
-                  <a href="#">
-                    Appointment <i className="zmdi zmdi-plus"></i>
-                  </a>
+                  <Link href="/wellness-program/mental-wellness">
+                    Know more <i className="zmdi zmdi-plus"></i>
+                  </Link>
                 </div>
               </Link>
             </div>
             <div className="col-md-4 mb-3">
-              <Link to='/wellness-program-corporate-wellness' style={linkStyles}>
+              <Link href='/wellness-program/corporate-wellness' style={linkStyles}>
                 <div className="single_cbox">
                   <div className="cbox_title">
                     <div className="cbox_icon">
@@ -83,14 +82,14 @@ const Service = () => {
                     Corp Health focuses on promoting and enhancing the health and
                     well-being of employees within a company.
                   </p>
-                  <a href="#">
+                  <Link href='/wellness-program/corporate-wellness'>
                     Know more <i className="zmdi zmdi-plus"></i>
-                  </a>
+                  </Link>
                 </div>
               </Link>
             </div>
             <div className="col-md-4 mb-3">
-              <Link to='/wellness-program-wellness-eco-system' style={linkStyles}>
+              <Link href='/wellness-program/wellness-eco-system' style={linkStyles}>
                 <div className="single_cbox">
                   <div className="cbox_title">
                     <div className="cbox_icon">
@@ -105,14 +104,14 @@ const Service = () => {
                     A wellness ecosystem is a network of interconnected elements
                     fostering overall health and well-being.
                   </p>
-                  <a href="#">
+                  <Link href='/wellness-program/wellness-eco-system'>
                     Know more <i className="zmdi zmdi-plus"></i>
-                  </a>
+                  </Link>
                 </div>
               </Link>
             </div>
             <div className="col-md-4 mb-3">
-              <Link to='/wellness-program-meschino-health-literacy' style={linkStyles}>
+              <Link href='/wellness-program/meschino-health-literacy' style={linkStyles}>
                 <div className="single_cbox">
                   <div className="cbox_title">
                     <div className="cbox_icon">
@@ -128,9 +127,9 @@ const Service = () => {
                     information effectively for informed decision-making about
                     one's health.
                   </p>
-                  <a href="#">
+                  <Link href='/wellness-program/meschino-health-literacy'>
                     Know more <i className="zmdi zmdi-plus"></i>
-                  </a>
+                  </Link>
                 </div>
               </Link>
             </div>

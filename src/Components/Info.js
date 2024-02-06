@@ -1,9 +1,9 @@
+"use client";
 import React, { useState } from "react";
-import Doctor1 from "../assets/img/v5_about2.png";
-import Doctor2 from "../assets/img/v5_about.png";
-import Doctor3 from "../assets/img/v5_about3.png";
+import VideoModal from "./VideoModal";
 
 const Info = () => {
+
   const [showModal, setShowModal] = useState(false);
 
   const handlePlayClick = (e) => {
@@ -25,15 +25,15 @@ const Info = () => {
   ];
 
   const DoctorImage1 = {
-    backgroundImage: `url(${Doctor1})`,
+    backgroundImage: `url(${'/img/v5_about2.png'})`,
   };
 
   const DoctorImage2 = {
-    backgroundImage: `url(${Doctor2})`,
+    backgroundImage: `url(${'/img/v5_about.png'})`,
   };
 
   const DoctorImage3 = {
-    backgroundImage: `url(${Doctor3})`,
+    backgroundImage: `url(${'img/v5_about3.png'})`,
   };
 
   return (
@@ -81,46 +81,11 @@ const Info = () => {
             </div>
             {modals.map((modal) => (
               <div key={modal.id}>
-                {showModal && (
-                  <div
-                    className="modal fade show d-flex align-items-center"
-                    style={{
-                      display: "block",
-                      backgroundColor: "rgba(0, 0, 0, 0.5)",
-                    }}
-                    tabIndex="-1"
-                    onClick={handleOverlayClick}
-                  >
-                    <div
-                      className="modal-dialog modal-dialog-centered"
-                      style={{
-                        margin: "auto",
-                        minWidth: window.innerWidth > 800 ? "70%" : "100%",
-                      }}
-                      onClick={(e) => e.stopPropagation()}
-                    >
-                      <div
-                        className="modal-content"
-                        style={{
-                          border: "none",
-                          background: "transparent",
-                          minHeight: "50vh",
-                        }}
-                      >
-                        <div className="modal-body">
-                          <div className="embed-responsive embed-responsive-16by9">
-                            <iframe
-                              className="embed-responsive-item"
-                              src={modal.videoSrc}
-                              allowFullScreen
-                              title="YouTube Video"
-                            ></iframe>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                )}
+                <VideoModal
+                  showModal={showModal}
+                  currentVideoSrc={modal.videoSrc}
+                  handleOverlayClick={handleOverlayClick}
+                />
               </div>
             ))}
           </div>
