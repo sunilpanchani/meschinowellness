@@ -9,7 +9,7 @@ const Breadcrumb = ({ title, item }) => {
                 <div className="container">
                     <div className="row text-center">
                         <div className="col">
-                            <h2>{title}</h2>
+                            <h1>{title}</h1>
                             <div className="breadcroumb_link">
                                 <Link href="/">Home </Link>/ {item}
                             </div>

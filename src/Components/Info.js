@@ -50,7 +50,7 @@ const Info = () => {
             </div>
             <div className="col-lg-6">
               <div className="v5_section_title">
-                <h3>About DR. Meschino</h3>
+                <h3>About Dr. Meschino</h3>
                 <p>
                   Especially significant in a state imperiled by rising sea
                   levels and overi by Dr. James Meschino is an accomplished
@@ -72,10 +72,10 @@ const Info = () => {
                 <a
                   href="#"
                   onClick={handlePlayClick}
-                  className="video_popup about_btn v3"
+                  className="custom_btn home_2 d-flex"
+                  style={{ width: '50px' }}
                 >
-                  <i className="zmdi zmdi-play"></i> Learn More About DR.
-                  Meschino
+                  Learn More  <i className="zmdi zmdi-play-circle" style={{ fontSize: '24px', marginLeft: '10px' }}></i>
                 </a>
               </div>
             </div>

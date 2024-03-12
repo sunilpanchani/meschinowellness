@@ -1,9 +1,9 @@
 {
   "pages": {
-    "/wellness-program/meschino-health-literacy/page": [
+    "/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/wellness-program/meschino-health-literacy/page.js"
+      "static/chunks/app/page.js"
     ],
     "/layout": [
       "static/chunks/webpack.js",
@@ -11,25 +11,10 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/wellness-program/mental-wellness/page": [
+    "/not-found": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/wellness-program/mental-wellness/page.js"
-    ],
-    "/wellness-program/corporate-wellness/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/wellness-program/corporate-wellness/page.js"
-    ],
-    "/how-it-works/organizations/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/how-it-works/organizations/page.js"
-    ],
-    "/contact-us/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/contact-us/page.js"
+      "static/chunks/app/not-found.js"
     ]
   }
 }

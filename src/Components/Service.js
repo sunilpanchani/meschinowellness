@@ -26,7 +26,7 @@ const Service = () => {
                   <div className="cbox_title">
                     <div className="cbox_icon">
                       <img
-                        src="https://meschinowellness.net/wp-content/uploads/2015/05/employeehealth.png"
+                        src="/img/employeehealth.png"
                         alt=""
                       />
                     </div>
@@ -49,7 +49,7 @@ const Service = () => {
                   <div className="cbox_title">
                     <div className="cbox_icon">
                       <img
-                        src="https://meschinowellness.net/wp-content/uploads/2015/05/mentalhealth.png"
+                        src="/img/mentalhealth.png"
                         alt=""
                       />
                     </div>
@@ -72,7 +72,7 @@ const Service = () => {
                   <div className="cbox_title">
                     <div className="cbox_icon">
                       <img
-                        src="https://meschinowellness.net/wp-content/uploads/2015/05/corphealth.png"
+                        src="/img/corphealth.png"
                         alt=""
                       />
                     </div>
@@ -94,7 +94,7 @@ const Service = () => {
                   <div className="cbox_title">
                     <div className="cbox_icon">
                       <img
-                        src="https://meschinowellness.net/wp-content/uploads/2015/05/eco-system.png"
+                        src="/img/eco-system.png"
                         alt=""
                       />
                     </div>
@@ -116,7 +116,7 @@ const Service = () => {
                   <div className="cbox_title">
                     <div className="cbox_icon">
                       <img
-                        src="https://meschinowellness.net/wp-content/uploads/2015/05/healthliteracy.png"
+                        src="/img/healthliteracy.png"
                         alt=""
                       />
                     </div>

@@ -35,7 +35,7 @@ const Header = () => {
         if (windowWidth < 992) {
             return (
                 <div className='slicknav_menu'>
-                    <a
+                    <Link
                         href="#"
                         role="button"
                         tabIndex="0"
@@ -50,7 +50,7 @@ const Header = () => {
                             <span className="slicknav_icon-bar"></span>
                             <span className="slicknav_icon-bar"></span>
                         </span>
-                    </a>
+                    </Link>
                     {isSidebarOpen && (
                         <ul className="slicknav_nav" aria-hidden={!isSidebarOpen} style={{ display: isSidebarOpen ? 'block' : 'none' }}>
                             <MenuItem title="Home" link="/" onclick={handleLinkClick} />
@@ -91,7 +91,7 @@ const Header = () => {
         }
         else {
             return (
-                <>
+                <div>
                     <ul className="main_menu">
                         <li>
                             <Link href="/" className={pathname === "/" ? "active" : ""}>Home</Link>
@@ -142,7 +142,7 @@ const Header = () => {
                             <Link href="/contact-us" className={pathname === "/contact/us" ? "active" : ""}>Contact Us</Link>
                         </li>
                     </ul>
-                </>
+                </div>
             );
         }
     };

@@ -35,7 +35,7 @@ const ContentDisplay = ({ view, imageUrl, title, description1, description2, lis
                                     <p>{description2}</p>
                                     {showButton && (
                                         <button className="custom_btn2" onClick={(e) => handlePlayClick(e, videoSrc)}>
-                                            Know more <i className="zmdi zmdi-long-arrow-right"></i>
+                                            Know more <i className="zmdi zmdi-play" style={{ fontSize: '24px', paddingLeft: '3px' }}></i>
                                         </button>
                                     )}
                                 </div>
@@ -71,8 +71,8 @@ const ContentDisplay = ({ view, imageUrl, title, description1, description2, lis
                                     </ul>
                                     <p>{description2}</p>
                                     {showButton && (
-                                        <button className="custom_btn home_2" onClick={(e) => handlePlayClick(e, videoSrc)}>
-                                            Know more
+                                        <button className="custom_btn home_2 d-flex" onClick={(e) => handlePlayClick(e, videoSrc)}>
+                                            Know more <i className="zmdi zmdi-play-circle" style={{ fontSize: '24px', marginLeft: '10px' }}></i>
                                         </button>
                                     )}
                                 </div>
